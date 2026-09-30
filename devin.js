@@ -27,8 +27,6 @@ try {
   process.exit(1);
 }
 
-console.error(`Using configured Devin model: ${model}`);
-
 // Detect mode: if prompt looks like a JSON array, use grader mode
 let isGraderMode = false;
 try {
